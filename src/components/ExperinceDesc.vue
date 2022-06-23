@@ -3,7 +3,7 @@
     <p class="exp-title">
       {{ data.title }} @
       <a class="exp-corp" v-if="data.link != ''" :href="data.link">{{
-        data.corp
+          data.corp
       }}</a>
       <span v-else class="exp-corp">{{ data.corp }}</span>
     </p>
@@ -34,11 +34,11 @@ const { data } = defineProps({
   .exp-title {
     font-size: 1.3rem;
     font-weight: 600;
-    color: #ccd6f6;
+    color: var(--color-text-primary);
     margin-bottom: 12px;
 
     .exp-corp {
-      color: #5aafff;
+      color: var(--color-primary);
       text-decoration: none;
     }
   }
@@ -49,24 +49,23 @@ const { data } = defineProps({
 
   .exp-time {
     margin-bottom: 20px;
-    color: #a8b2d1;
-    font-family: "Cascadia Code", monospace;
+    color: var(--color-text-secondary);
+    font-family: var(--font-second), monospace;
   }
 
   ul {
-    > li {
-      color: #a8b2d1;
+    >li {
+      color: var(--color-text-secondary);
       padding-left: 24px;
       position: relative;
       margin-bottom: 12px;
-      // font-weight: 500;
       font-size: 1.05rem;
       line-height: 1.2;
 
       &::before {
         position: absolute;
         content: "◈ ";
-        color: #5ab0ff;
+        color: var(--color-primary);
         left: 0;
         font-size: small;
       }

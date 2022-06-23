@@ -16,10 +16,8 @@
           ICT solution company as a Web Developer and many of these years spent
           learning technologies as a self-learner. I have also experience in
           publishing
-          <a
-            href="https://codecanyon.net/item/paper-flutter-news-app-with-firebase-backend/28068212"
-            >a product on Codecanyon market</a
-          >
+          <a href="https://codecanyon.net/item/paper-flutter-news-app-with-firebase-backend/28068212">a product on
+            Codecanyon market</a>
           and some individual projects.
         </p>
         <p>
@@ -68,24 +66,25 @@ import SectionTitle from "./SectionTitle.vue";
     .about-text {
       max-width: 50%;
       font-size: 1.1rem;
-      color: #8892b0;
+      color: var(--color-text-secondary);
       line-height: 1.15;
 
       @media (max-width: 768px) {
         max-width: 100%;
         margin-bottom: 20px;
       }
-      & > * {
+
+      &>* {
         margin-top: 16px;
         margin-bottom: 16px;
       }
 
       a {
-        color: #5ab0ff;
+        color: var(--color-primary);
         text-decoration: none;
 
         &:visited {
-          color: #5ab0ff;
+          color: var(--color-primary);
         }
       }
 
@@ -94,14 +93,15 @@ import SectionTitle from "./SectionTitle.vue";
         width: 100%;
         justify-content: space-between;
         line-height: 1.5;
-        font-family: "Cascadia Code", monospace;
+        font-family: var(--font-second), monospace;
+
         div {
           width: 50%;
 
           li {
             &::before {
               content: "◈ ";
-              color: #5ab0ff;
+              color: var(--color-primary);
               margin-right: 8px;
               margin-top: auto;
               font-size: small;
@@ -118,15 +118,15 @@ import SectionTitle from "./SectionTitle.vue";
     height: 320px;
     background: url("../assets/img/photo.webp");
     background-position: center;
-    border-radius: 8px;
+    border-radius: var(--mo-d-border-radius);
     cursor: pointer;
     transition: all 0.3s ease;
     position: relative;
 
     &:after {
       content: "";
-      background-color: #5aafff67;
-      border-radius: 8px;
+      background-color: var(--image-overlay);
+      border-radius: var(--mo-d-border-radius);
       width: 100%;
       height: 100%;
       position: absolute;
@@ -134,8 +134,9 @@ import SectionTitle from "./SectionTitle.vue";
     }
 
     &:hover:after {
-      background-color: #00000000;
+      background-color: var(--color-transparent);
     }
+
     &:hover {
       transform: scale(1.02);
     }

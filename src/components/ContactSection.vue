@@ -21,37 +21,40 @@
   max-width: 550px !important;
   text-align: center;
   padding: 150px 0px;
+
   * {
     margin-bottom: 20px;
   }
+
   .s-title {
-    font-family: "Cascadia Code", monospace;
-    color: #5ab0ff;
+    font-family: var(--font-second), monospace;
+    color: var(--color-primary);
   }
 
   h2 {
     font-size: 2.5rem;
-    color: #ccd6f6;
+    color: var(--color-text-primary);
   }
 
   p {
-    color: #8892b0;
+    color: var(--color-text-secondary);
     font-size: 1.2rem;
     line-height: 1.1;
   }
 
   a {
     text-decoration: none;
-    border-radius: 6px;
-    border: #5ab0ff 1px solid;
+    border-radius: var(--mo-d-border-radius);
+    border: var(--color-primary) 1px solid;
     padding: 16px 40px;
     transition: all 0.23s ease;
-    background: #ff000000;
-    color: #5aafff;
-    font-family: "Cascadia Code", monospace;
+    background: var(--color-transparent);
+    color: var(--color-primary);
+    font-family: var(--font-second), monospace;
     margin-top: 12px;
+
     &:hover {
-      background-color: #5aafff2c;
+      background-color: var(--color-primary-trans);
     }
   }
 }

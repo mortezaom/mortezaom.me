@@ -12,7 +12,7 @@
 .footer-section {
   margin-top: 150px;
   margin-bottom: 24px;
-  font-family: "Cascadia Code", monospace;
+  font-family: var(--font-second), monospace;
   font-size: 0.9rem;
   padding-right: 12px;
   padding-left: 12px;
@@ -24,14 +24,15 @@
   }
 
   * {
-    color: #ccd6f6;
+    color: var(--color-text-primary);
   }
 
   a {
     text-decoration: none;
-    color: #8892b0;
+    color: var(--color-text-secondary);
+
     &:visited {
-      color: #8892b0;
+      color: var(--color-text-secondary);
     }
   }
 }

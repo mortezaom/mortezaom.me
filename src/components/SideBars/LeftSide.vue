@@ -44,18 +44,19 @@ import Twitter from "../icons/Twitter.vue";
     display: none;
   }
 
-  ul > a {
+  ul>a {
     padding: 20px;
-    stroke: white;
-    fill: white;
+    stroke: var(--color-icons);
+    fill: var(--color-icons);
     transition: all 0.23s ease;
     cursor: pointer;
     display: flex;
     flex-direction: column;
     width: 20px;
     height: 20px;
+
     &:hover {
-      stroke: #5ab0ff;
+      stroke: var(--color-primary);
       transform: translateY(-6px);
     }
   }
@@ -66,7 +67,7 @@ import Twitter from "../icons/Twitter.vue";
     width: 1px;
     height: 90px;
     margin: 10px auto;
-    background-color: white;
+    background-color: var(--color-icons);
 
     @media (max-width: 768px) {
       display: none;
@@ -79,7 +80,7 @@ import Twitter from "../icons/Twitter.vue";
     width: 1px;
     height: 90px;
     margin: 10px auto;
-    background-color: white;
+    background-color: var(--color-icons);
 
     @media (max-width: 768px) {
       display: none;

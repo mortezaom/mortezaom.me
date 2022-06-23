@@ -3,13 +3,8 @@
     <SectionTitle :number="'II'" :text="'Where I\'ve Work'" />
     <div>
       <div class="exp-sec exp-titles">
-        <div
-          v-for="({ id, title, desc }, index) in exps"
-          class="exp-title"
-          :class="{ active: index == selectedExp }"
-          @click="changeExp(index)"
-          :key="id + index"
-        >
+        <div v-for="({ id, title, desc }, index) in exps" class="exp-title" :class="{ active: index == selectedExp }"
+          @click="changeExp(index)" :key="id + index">
           {{ title }}
         </div>
       </div>
@@ -21,7 +16,7 @@
 </template>
 
 <script setup lang="ts">
-import { ref, watch } from "vue";
+import { ref } from "vue";
 import SectionTitle from "./SectionTitle.vue";
 import ExperinceDesc from "./ExperinceDesc.vue";
 
@@ -93,7 +88,7 @@ const exps = ref([
   padding: 150px 0px;
   min-height: 40vh;
 
-  > div {
+  >div {
     display: flex;
     justify-content: space-between;
     margin-top: 50px;
@@ -108,7 +103,7 @@ const exps = ref([
       width: 20%;
       cursor: pointer;
       -ms-overflow-style: auto;
-      scrollbar-color: #ff000000 #495670;
+      scrollbar-color: var(--color-transparent) var(--scrollbar-background);
       scrollbar-width: thin;
 
       @media (max-width: 768px) {
@@ -118,47 +113,44 @@ const exps = ref([
         overflow-x: auto;
       }
 
-      *::selection {
-        background-color: #233554;
-        color: #ccd6f6;
+      &::-webkit-scrollbar-thumb {
+        background-color: var(--scrollbar-background);
+        border: 2px solid var(--color-primary-dark);
+        border-radius: var(--mo-d-border-radius);
       }
 
-      &::-webkit-scrollbar-thumb {
-        background-color: #495670;
-        border: 2px solid #0a192f;
-        border-radius: 10px;
-      }
       &::-webkit-scrollbar-corner {
-        background-color: #495670;
-        border: 2px solid #0a192f;
-        border-radius: 10px;
+        background-color: var(--scrollbar-background);
+        border: 2px solid var(--color-primary-dark);
+        border-radius: var(--mo-d-border-radius);
       }
+
       &::-webkit-scrollbar {
         width: 8px;
       }
 
-      > div {
+      >div {
         padding: 16px 18px;
         font-size: 1.1rem;
         font-weight: 500;
-        color: #ccd6f6;
+        color: var(--color-text-primary);
         transition: padding 0.3s ease;
         box-sizing: content-box;
-        border-left: #5aafff2c solid 2px;
+        border-left: var(--color-primary-trans) solid 2px;
 
         @media (max-width: 768px) {
           border-left: none;
-          border-bottom: #5aafff2c solid 2px;
+          border-bottom: var(--color-primary-trans) solid 2px;
           width: 33.99999%;
           text-align: center;
         }
 
         &:hover {
-          background-color: #5aafff2c;
+          background-color: var(--color-primary-trans);
         }
 
         &.active {
-          border-left: #5aafff solid 2px;
+          border-left: var(--color-primary) solid 2px;
 
           @media (min-width: 769px) {
             padding-left: 24px;
@@ -166,11 +158,12 @@ const exps = ref([
 
           @media (max-width: 768px) {
             border-left: none;
-            border-bottom: #5aafff solid 2px;
+            border-bottom: var(--color-primary) solid 2px;
           }
         }
       }
     }
+
     .exp-descs {
       width: 70%;
       transition: opacity 0.15s ease-in-out;
@@ -178,6 +171,7 @@ const exps = ref([
       @media (max-width: 768px) {
         width: 100%;
       }
+
       &.hide {
         opacity: 0;
       }

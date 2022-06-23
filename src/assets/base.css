@@ -1,0 +1,63 @@
+@font-face {
+  font-family: 'Cascadia Code';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Cascadia Code'), url('./fonts/cascadia/Cascadia.woff') format('woff');
+}
+
+/* Main Colors */
+:root {
+  --mo-c-white: #ffffff;
+
+  --mo-c-darkblue: #0A192F;
+  --mo-c-darkblue-trans: #0a192f9d;
+  --mo-c-blue: #5AB0FF;
+  --mo-c-blue-trans: #5aafff2c;
+  --mo-c-lightblue: #495670;
+  --mo-c-deepblue: #0e2242;
+  --mo-c-deepblue-shadow: #0a192f1f;
+
+  --mo-c-heading-dark: #ccd6f6;
+  --mo-c-text-dark: #8892b0;
+
+  --mo-c-selection-bg-light: #233554;
+  --mo-c-selection-color-light: #ccd6f6;
+
+  --mo-d-border-radius: 10px;
+
+  --mo-imageover-dark: #5aafff67;
+  --mo-dark-overlay: rgba(0, 0, 0, 0.5);
+
+  --font-main: "Maven Pro";
+  --font-second: "Cascadia Code";
+}
+
+/* semantic color variables for this project */
+:root {
+  --color-primary-dark: var(--mo-c-darkblue);
+  --color-primary-deep-shadow: var(--mo-c-deepblue-shadow);
+  --color-primary: var(--mo-c-blue);
+  --color-primary-trans: var(--mo-c-blue-trans);
+  --color-primary-dark-trans: var(--mo-c-darkblue-trans);
+  --color-primary-deep: var(--mo-c-deepblue);
+
+  --color-text-white: var(--mo-c-white);
+  --color-text-primary: var(--mo-c-heading-dark);
+  --color-text-secondary: var(--mo-c-text-dark);
+
+  --scrollbar-background: var(--mo-c-lightblue);
+  --color-light-background: var(--mo-c-lightblue);
+
+  --image-overlay: var(--mo-imageover-dark);
+  --page-overlay: var(--mo-dark-overlay);
+
+  --color-transparent: #ff000000;
+  --color-selection-bg: var(--mo-c-selection-bg-light);
+  --color-selection-color: var(--mo-c-selection-color-light);
+
+  --color-icons: var(--mo-c-white);
+}
+
+@media (prefers-color-scheme: dark) {
+  /* :root {} */
+}

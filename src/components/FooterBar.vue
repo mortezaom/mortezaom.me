@@ -59,17 +59,17 @@ import Twitter from "./icons/Twitter.vue";
     }
   }
 
-  ul > li {
+  ul>li {
     padding: 24px;
     width: 24px;
     height: 24px;
-    stroke: white;
-    fill: white;
+    stroke: var(--color-icons);
+    fill: var(--color-icons);
     transition: all 0.23s ease;
     cursor: pointer;
 
     &:hover {
-      stroke: #5ab0ff;
+      stroke: var(--color-primary);
       transform: translateY(-6px);
     }
   }

@@ -28,8 +28,8 @@
   }
 
   .f-p {
-    font-family: "Cascadia Code", monospace;
-    color: #5ab0ff;
+    font-family: var(--font-second), monospace;
+    color: var(--color-primary);
     font-weight: 600;
   }
 
@@ -40,6 +40,7 @@
     @media (max-width: 1080px) {
       font-size: 5.4vw;
     }
+
     @media (max-width: 768px) {
       font-size: 7vw;
     }
@@ -52,14 +53,16 @@
       font-size: 34px;
     }
   }
+
   h2 {
     font-size: 2.5rem;
     font-weight: 700;
-    color: rgba(214, 235, 255, 0.514);
+    color: var(--color-text-secondary);
 
     @media (max-width: 1080px) {
       font-size: 4.8vw;
     }
+
     @media (max-width: 768px) {
       font-size: 6vw;
     }
@@ -72,11 +75,12 @@
       font-size: 20px;
     }
   }
+
   .s-p {
     max-width: 504px;
     font-size: 1.3rem;
     line-height: 1.2;
-    color: rgba(214, 235, 255, 0.514);
+    color: var(--color-text-secondary);
 
     @media (max-width: 600px) {
       font-size: 1.2rem;
@@ -88,20 +92,20 @@
   }
 
   button {
-    font-family: "cascadia code", monospace;
+    font-family: var(--font-second), monospace;
     margin-bottom: 0px;
     margin-top: 16px;
     display: flex;
     padding: 16px 40px;
-    background-color: #ff000000;
-    border-radius: 8px;
-    border: #5ab0ff 1px solid;
-    color: #5ab0ff;
+    background-color: var(--color-transparent);
+    border-radius: var(--mo-d-border-radius);
+    border: var(--color-primary) 1px solid;
+    color: var(--color-primary);
     font-size: 1.2rem;
     transition: all 0.23s ease;
 
     &:hover {
-      background-color: #5aafff2c;
+      background-color: var(--color-primary-trans);
     }
   }
 }

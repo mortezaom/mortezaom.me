@@ -14,7 +14,7 @@ const { number, text } = defineProps(["number", "text"]);
   padding-top: 16px;
   padding-bottom: 16px;
   position: relative;
-  color: #ccd6f6;
+  color: var(--color-text-primary);
 
   @media (max-width: 768px) {
     font-size: 5vw;
@@ -33,7 +33,7 @@ const { number, text } = defineProps(["number", "text"]);
     margin-left: 24px;
     top: 50%;
     bottom: 50%;
-    background-color: #8892b0;
+    background-color: var(--color-text-secondary);
 
 
     @media (max-width: 450px) {
@@ -43,8 +43,8 @@ const { number, text } = defineProps(["number", "text"]);
 
   span {
     font-size: 1.8rem;
-    font-family: "Cascadia code", sans-serif;
-    color: #5ab0ff;
+    font-family: var(--font-second), sans-serif;
+    color: var(--color-primary);
 
     @media (max-width: 768px) {
       font-size: 4vw;

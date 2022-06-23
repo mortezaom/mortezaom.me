@@ -13,7 +13,7 @@
 </template>
 
 <script setup lang="ts">
-import { computed, onMounted } from "vue";
+import { onMounted } from "vue";
 import Logo from "./icons/Logo.vue";
 
 const { show } = defineProps({
@@ -33,6 +33,7 @@ const setColor = () => {
 
 <style lang="scss" scoped>
 $splash-color: var(--splash-color);
+
 .vue-splash {
   flex: 1;
   width: 100%;
@@ -41,7 +42,7 @@ $splash-color: var(--splash-color);
   align-items: center;
   justify-content: center;
   z-index: 11111;
-  background-color: #0a192f !important;
+  background-color: var(--color-primary-dark) !important;
 
   &--fixed {
     top: 0;
@@ -51,34 +52,40 @@ $splash-color: var(--splash-color);
     width: 100%;
     height: 100%;
     position: fixed;
-    background-color: white;
+    background-color: var(--color-text-white);
   }
 }
+
 .vue-splash__anim {
   text-align: center;
   animation: splashAnimation 1.3s infinite;
+
   .img {
     margin: auto;
 
     svg {
       width: 100px;
       height: 100px;
-      fill: #5ab0ff;
+      fill: var(--color-primary);
     }
   }
 }
+
 @keyframes splashAnimation {
   0% {
     filter: drop-shadow(0px 0px 0px $splash-color);
   }
+
   100% {
     filter: drop-shadow(0px 0px 200px $splash-color);
   }
 }
+
 .fade-enter-active,
 .fade-leave-active {
   transition: opacity 0.3s;
 }
+
 .fade-enter,
 .fade-leave-to {
   opacity: 0;

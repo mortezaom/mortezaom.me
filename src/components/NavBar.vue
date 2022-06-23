@@ -5,9 +5,7 @@
     </a>
     <div class="nav-links">
       <a v-scroll-to="'#about'" class="nav-link"><span>I.</span> About</a>
-      <a v-scroll-to="'#experience'" class="nav-link"
-        ><span>II.</span> Experience</a
-      >
+      <a v-scroll-to="'#experience'" class="nav-link"><span>II.</span> Experience</a>
       <a v-scroll-to="'#work'" class="nav-link"><span>III.</span> Work</a>
       <a v-scroll-to="'#contact'" class="nav-link"><span>IV.</span> Contact</a>
       <a class="nav-button" target="_blank" href="/Resume.pdf">
@@ -59,7 +57,7 @@ nav.navbar {
   justify-content: space-between;
   align-items: center;
   box-sizing: border-box;
-  background-color: #0a192f9d;
+  background-color: var(--color-primary-dark-trans);
   transition: all 0.3s ease;
 
   &.navbar--hidden {
@@ -77,7 +75,7 @@ nav.navbar {
   }
 
   box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
-    rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+  rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
 
   .nav-icon {
     position: relative;
@@ -90,12 +88,12 @@ nav.navbar {
     }
 
     #mLogo {
-      fill: #5ab0ff;
+      fill: var(--color-primary);
       transition: all 0.23s ease;
       cursor: pointer;
 
       &:hover {
-        fill: #5aafffbb;
+        fill: var(--color-primary-transparent);
       }
     }
   }
@@ -104,7 +102,7 @@ nav.navbar {
     display: flex;
     flex-direction: row;
     position: relative;
-    font-family: "Cascadia Code", monospace !important;
+    font-family: var(--font-second), monospace !important;
     font-size: 0.9rem;
 
     @media (max-width: 768px) {
@@ -122,20 +120,21 @@ nav.navbar {
       &:visited {
         color: inherit;
       }
+
       span {
-        color: #5ab0ff !important;
+        color: var(--color-primary) !important;
         font-family: inherit;
         transition: all 0.23s ease;
       }
 
       &:hover {
-        color: #5ab0ff;
+        color: var(--color-primary);
       }
     }
 
     .nav-button {
-      border-radius: 6px;
-      border: #5ab0ff 1px solid;
+      border-radius: var(--mo-d-border-radius);
+      border: var(--color-primary) 1px solid;
       padding: 12px 8px;
       margin: 4px 8px;
       transition: all 0.23s ease;
@@ -154,7 +153,7 @@ nav.navbar {
       }
 
       &:hover {
-        background-color: #5aafff2c;
+        background-color: var(--color-primary-trans);
       }
     }
   }

@@ -155,7 +155,7 @@ useHead({
 </template>
 
 <style lang="scss">
-@import "@/assets/fonts.css";
+@import "@/assets/base.css";
 @import "@/assets/reset.min.css";
 
 #app {
@@ -163,29 +163,32 @@ useHead({
   flex-direction: column;
   align-items: center;
 }
+
 body {
-  font-family: "Maven Pro", sans-serif;
-  background-color: #0a192f;
-  color: white;
+  font-family: var(--font-main), sans-serif;
+  background-color: var(--color-primary-dark);
+  color: var(--color-text-white);
   -ms-overflow-style: auto;
-  scrollbar-color: #ff000000 #495670;
+  scrollbar-color: var(--color-transparent) var(--color-light-background);
   scrollbar-width: thin !important;
 
   *::selection {
-    background-color: #233554;
-    color: #ccd6f6;
+    background-color: var(--color-selection-bg);
+    color: var(--color-selection-color);
   }
 
   &::-webkit-scrollbar-thumb {
-    background-color: #495670;
-    border: 3px solid #0a192f;
-    border-radius: 10px;
+    background-color: var(--color-light-background);
+    border: 3px solid var(--color-primary-dark);
+    border-radius: var(--mo-d-border-radius);
   }
+
   &::-webkit-scrollbar-corner {
-    background-color: #495670;
-    border: 3px solid #0a192f;
-    border-radius: 10px;
+    background-color: var(--color-light-background);
+    border: 3px solid var(--color-primary-dark);
+    border-radius: var(--mo-d-border-radius);
   }
+
   &::-webkit-scrollbar {
     width: 12px;
   }

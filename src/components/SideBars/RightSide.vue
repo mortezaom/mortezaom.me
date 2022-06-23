@@ -1,9 +1,7 @@
 <template>
   <div class="right-side">
     <div>
-      <a href="mailto:mortezaomarmohammady@gmail.com"
-        >mortezaomarmohammady@gmail.com</a
-      >
+      <a href="mailto:mortezaomarmohammady@gmail.com">mortezaomarmohammady@gmail.com</a>
     </div>
   </div>
 </template>
@@ -34,15 +32,15 @@
     a {
       position: relative;
       display: flex;
-      color: white;
+      color: var(--color-icons);
       writing-mode: vertical-rl;
       text-decoration: none;
-      font-family: "Cascadia Code", monospace;
+      font-family: var(--font-second), monospace;
       transition: all 0.23s ease;
       font-size: .9rem;
 
       &:hover {
-        color: #5ab0ff;
+        color: var(--color-primary);
         transform: translateY(-4px);
       }
     }
@@ -53,7 +51,7 @@
       width: 1px;
       height: 90px;
       margin: 30px auto;
-      background-color: white;
+      background-color: var(--color-icons);
     }
 
     &::before {
@@ -62,7 +60,7 @@
       width: 1px;
       height: 90px;
       margin: 30px auto;
-      background-color: white;
+      background-color: var(--color-icons);
     }
   }
 }

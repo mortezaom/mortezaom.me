@@ -71,34 +71,33 @@ const works = ref([
   align-items: center;
   padding: 150px 0px;
 
-  > h2 {
+  >h2 {
     align-self: flex-start;
   }
 
-  > button {
-    border-radius: 6px;
-    border: #8892b0 1px solid;
+  >button {
+    border-radius: var(--mo-d-border-radius);
+    border: var(--color-text-secondary) 1px solid;
     padding: 16px 40px;
     transition: all 0.23s ease;
-    background: #ff000000;
-    color: #8892b0;
-    font-family: "Cascadia Code", monospace;
+    background: var(--color-transparent);
+    color: var(--color-text-secondary);
+    font-family: var(--font-second), monospace;
     margin-top: -12px;
-    // &:hover {
-    //   background-color: #5aafff2c;
-    // }
   }
+
   .works-con {
     margin-top: 80px;
     margin-bottom: 80px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 16px;
-    > .work-item {
+
+    >.work-item {
       height: 300px;
-      background-color: #0e2242;
-      box-shadow: #0a192f1f 0px 1px 2px 0px;
-      border-radius: 6px;
+      background-color: var(--color-primary-deep);
+      box-shadow: var(--color-primary-deep-shadow) 0px 1px 2px 0px;
+      border-radius: var(--mo-d-border-radius);
       padding: 24px 30px;
       box-sizing: border-box;
       display: flex;
@@ -116,28 +115,30 @@ const works = ref([
       }
 
       &:hover .texts h3 {
-        color: #5aafff;
-        fill: #5aafff;
+        color: var(--color-primary);
+        fill: var(--color-primary);
       }
 
       &:hover path {
-        fill: #5aafff !important;
+        fill: var(--color-primary) !important;
       }
 
       .icons {
         display: flex;
         justify-content: space-between;
+
         .i-project {
           height: 36px;
           width: 36px;
         }
+
         .i-link {
           width: 24px;
           height: 24px;
           cursor: pointer;
-          
+
           * {
-            fill: #8892b0;
+            fill: var(--color-text-secondary);
             transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
           }
         }
@@ -146,19 +147,21 @@ const works = ref([
       .texts {
         margin-top: 12px;
         margin-bottom: 16px;
+
         h3 {
           font-size: 1.15rem;
           line-height: 1.15;
           margin-bottom: 6px;
-          color: #ccd6f6;
+          color: var(--color-text-primary);
           transition: all 0.3s ease;
         }
+
         p {
-          color: #8892b0;
+          color: var(--color-text-secondary);
           font-size: 1.03rem;
 
           a {
-            color: #5aafff;
+            color: var(--color-primary);
           }
         }
       }
@@ -169,12 +172,13 @@ const works = ref([
         flex-wrap: wrap;
         font-size: 0.85rem;
         font-weight: 500;
-        font-family: "Cascadia code", monospace;
+        font-family: var(--font-second), monospace;
         line-height: 1.5;
+
         * {
           margin-left: 6px;
           margin-right: 6px;
-          color: #8892b0;
+          color: var(--color-text-secondary);
         }
       }
     }
