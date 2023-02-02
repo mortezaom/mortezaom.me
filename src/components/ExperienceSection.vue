@@ -56,10 +56,10 @@ const exps = ref([
       title: "Web/Mobile Developer",
       corp: "Cynoco",
       link: "https://cynoco.co.uk/",
-      email: "mrtz@cycoco.co.uk",
+      email: "mrtz@cynoco.co.uk",
       time: "June 2020 - Present",
       texts: [
-        `Working as product manager for the web team.`,
+        `Working as frontend lead developer for web team.`,
         `Working and Realeasing apps to AppStore/PlayStore.`,
         `Creating apps and websites/panels with Flutter/VueJS.`,
         `Currently working on in-house products and services to release in code markets.`
