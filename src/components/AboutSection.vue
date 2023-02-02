@@ -5,11 +5,10 @@
       <div class="about-text">
         <p>
           Hello, I am Morteza Omar Mohammadi, a 20 years old developer. My main
-          skill is in Mobile App development and FrontEnd Web development with
-          VueJS ( or pure CSS/Javascript ), also I write backends for my Apps
-          using NodeJS. I am interested in new technologies in my field like
-          Flutter. Also, I am interested in UI/UX but not as a creator, just an
-          editor :)
+          skill is in FrontEnd Web development VueJS ( or pure CSS/Javascript )
+          and Mobile App development with Flutter.
+          I am interested in new technologies in my field like VueJS, NuxtJS and Flutter.
+          Also, I am interested in UI/UX but not as a creator, just as editor :)
         </p>
         <p>
           Fast-forward to today, and I've had the experience of working at an
@@ -21,22 +20,22 @@
           and some individual projects.
         </p>
         <p>
-          For now, I am learning Vue3 and NodeJS in deep and also creating an
-          App for publishing in the Google Play market.
+          For now, I am working in Webfume LLC and part of Cynoco Team. Creating and publishing Web applications
+          and Mobile applications for clients or just in-house projects.
         </p>
         <p>Here are some technologies I've been working with:</p>
         <ul>
-          <div class="t-android">
-            <li>Java</li>
-            <li>Kotlin</li>
-            <li>Android SDK</li>
-            <li>Dart / Flutter</li>
-          </div>
           <div class="t-web">
             <li>JavaScript (+ES6)</li>
             <li>TypeScript</li>
             <li>VueJS</li>
-            <li>NodeJS</li>
+            <li>Some NodeJS</li>
+          </div>
+          <div class="t-android">
+            <li>Flutter</li>
+            <li>Dart</li>
+            <li>Kotlin</li>
+            <li>Android SDK</li>
           </div>
         </ul>
       </div>
