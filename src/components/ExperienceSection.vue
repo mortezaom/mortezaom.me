@@ -34,11 +34,46 @@ const changeExp = (index: number) => {
 const exps = ref([
   {
     id: 1,
+    title: "Webfume LLC",
+    desc: {
+      title: "Application Developer",
+      corp: "Webfume LLC",
+      link: "https://webfume.com/",
+      email: "m.omar@webfume.com",
+      time: "March 2022 - Present",
+      texts: [
+        `As an application developer, working on in-house/clients projects .`,
+        `Working with Angular&Vue for web development and Flutter for mobile development.`,
+        `Working with the team to create new products and services for clients and the company.`,
+        `Creating custom libraries and custom modules for mobile and web projects.`,
+      ],
+    },
+  },
+  {
+    id: 2,
+    title: "Cynoco.co.uk",
+    desc: {
+      title: "Web/Mobile Developer",
+      corp: "Cynoco",
+      link: "https://cynoco.co.uk/",
+      email: "mrtz@cycoco.co.uk",
+      time: "June 2020 - Present",
+      texts: [
+        `Working as product manager for the web team.`,
+        `Working and Realeasing apps to AppStore/PlayStore.`,
+        `Creating apps and websites/panels with Flutter/VueJS.`,
+        `Currently working on in-house products and services to release in code markets.`
+      ],
+    },
+  },
+  {
+    id: 3,
     title: "TechnologyStar",
     desc: {
       title: "Web Developer",
       corp: "Technology Star",
       link: "",
+      email: "",
       time: "Feb 2018 - July 2020",
       texts: [
         `Part of web applications and websites development team for writing different websites and web apps for customers and clients.`,
@@ -48,28 +83,13 @@ const exps = ref([
     },
   },
   {
-    id: 1,
-    title: "TopDeves",
-    desc: {
-      title: "Web & Android Developer",
-      corp: "Top Deves",
-      link: "",
-      time: "Sep 2020 - Aug 2021",
-      texts: [
-        `Working as a web developer for creating team website and client projects.`,
-        `Part of the product management team for android apps.`,
-        `Trainer for new or junior developers when joining the team.`,
-        `Creating apps and websites with Java/Kotlin/NodeJS.`,
-      ],
-    },
-  },
-  {
-    id: 1,
+    id: 4,
     title: "Freelancing",
     desc: {
       title: "Web & Mobile Developer",
       corp: "Freelancer",
       link: "",
+      email: "hi@mortezaom.dev",
       time: "Sep 2018 - Present",
       texts: [
         `Learning and working with the best and updated technologies for mobile and web development.`,

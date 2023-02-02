@@ -1,6 +1,6 @@
 <template>
   <section class="section work" id="work">
-    <SectionTitle :number="'III'" :text="'Things that I\'ve Built'" />
+    <SectionTitle :number="'III'" :text="'Other things that I\'ve Built'" />
     <div class="works-con">
       <WorkItem v-for="work in works" :work="work" />
     </div>
@@ -36,24 +36,23 @@ const works = ref([
     technologies: ["Android", "Kotlin"],
   },
   {
+    title: "Mortezam.me",
+    description: `A personal website for myself, designed and developed with VueJS 3, exported with Vite-SSG.`,
+    link: "https://github.com/mortezaom/mortezaom.me",
+    technologies: ["Vue3", "SCSS", "TypeScript", "Vite-SSG"],
+  },
+  {
+    title: "Maryam Abbasi",
+    description: `A informational app for iranians who live in UK, designed and developed for Cynoco Team with Flutter and and VueJS(Admin Panel)`,
+    link: "https://app.maryamabbasi.com",
+    technologies: ["Flutter", "Dart", "Vue3", "NodeJS"],
+  },
+  {
     title: "BeatPlayer - Android Music Player",
     description:
       "A high functional music player based on open-source libraries and repos created for (Rozhak Team)",
     link: "https://cafebazaar.ir/app/com.rozhak.player",
     technologies: ["Android", "Kotlin", "MVVM", "Adivery"],
-  },
-  {
-    title: "News Section for ZamInfo Application",
-    description:
-      "Adding a news section to an android app called ZamInfo using Flutter/Dart (somethings may changed after I finish this project)",
-    link: "https://play.google.com/store/apps/details?id=com.griene.zaminfo",
-    technologies: ["Dart", "Flutter", "BloC", "Firebase"],
-  },
-  {
-    title: "My Personal website",
-    description: `Design is based on <a href="brittanychiang.com">Brittany's</a> website and coded from scratch with Vue3 as a SSG website`,
-    link: "/",
-    technologies: ["Vue3", "SCSS", "TypeScript"],
   },
   {
     title: "Other things",

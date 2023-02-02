@@ -18,7 +18,7 @@ onMounted(() => {
 });
 
 useHead({
-  title: "Morteza Omar | Dev",
+  title: "MortezaOM | Dev",
   meta: [
     {
       name: `description`,
@@ -37,7 +37,7 @@ useHead({
       content: "#ffffff",
     },
     { property: "og:title", content: "Morteza Omar Mohammadi" },
-    { property: "og:site_name", content: "Morteza OM | Dev" },
+    { property: "og:site_name", content: "MortezaOM | Dev" },
     { property: "og:url", content: "https://mortezaom.me" },
     {
       property: "og:description",

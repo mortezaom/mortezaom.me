@@ -3,6 +3,7 @@ interface Experience {
   corp: string;
   link: string;
   time: string;
+  email: string;
   texts: string[];
 }
 

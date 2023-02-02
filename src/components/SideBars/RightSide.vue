@@ -1,7 +1,7 @@
 <template>
   <div class="right-side">
     <div>
-      <a href="mailto:mortezaomarmohammady@gmail.com">mortezaomarmohammady@gmail.com</a>
+      <a href="mailto:hi@mortezaom.dev">hi@mortezaom.dev</a>
     </div>
   </div>
 </template>

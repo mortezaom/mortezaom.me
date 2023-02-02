@@ -3,13 +3,16 @@
     <p class="exp-title">
       {{ data.title }} @
       <a class="exp-corp" v-if="data.link != ''" :href="data.link">{{
-          data.corp
+        data.corp
       }}</a>
       <span v-else class="exp-corp">{{ data.corp }}</span>
     </p>
     <p class="exp-time">
       {{ data.time }}
     </p>
+    <a class="exp-email" :href="'mailto:' + data.email">
+      {{ data.email }}
+    </a>
     <ul>
       <li v-for="item in data.texts">{{ item }}</li>
     </ul>
@@ -43,17 +46,24 @@ const { data } = defineProps({
     }
   }
 
+  .exp-email {
+    color: var(--color-primary);
+    font-size: 1.05rem;
+    text-decoration: none;
+  }
+
   .hide {
     opacity: 0;
   }
 
   .exp-time {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     color: var(--color-text-secondary);
     font-family: var(--font-second), monospace;
   }
 
   ul {
+    margin-top: 10px;
     >li {
       color: var(--color-text-secondary);
       padding-left: 24px;

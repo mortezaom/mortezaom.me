@@ -3,11 +3,12 @@
     <h3 class="s-title"><span>IV. </span> What's Next?</h3>
     <h2>Get In Touch</h2>
     <p>
-      Although I'm currently working as a freelancer, I might be available for
-      your project or job opportunities. Contact me for anything you want, my
-      inbox is always open to you :)
+      Although I'm currently working on Webfume as application developer and 
+      also working as a freelancer, I might be available for your project or job 
+      opportunities. <br>
+      Contact me for anything you want, my inbox is always open to you :)
     </p>
-    <a href="mailto:mortezaomarmohammady@gmail.com">Feel free to contact</a>
+    <a href="mailto:hi@mortezaom.dev">Feel free to contact</a>
   </section>
 </template>
 
@@ -18,7 +19,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 550px !important;
+  max-width: 610px !important;
   text-align: center;
   padding: 150px 0px;
 
