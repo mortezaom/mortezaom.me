@@ -39,8 +39,8 @@ const exps = ref([
       title: "Application Developer",
       corp: "Webfume LLC",
       link: "https://webfume.com/",
-      email: "m.omar@webfume.com",
-      time: "March 2022 - Present",
+      email: "",
+      time: "March 2022 - Feb 2023",
       texts: [
         `As an application developer, working on in-house/clients projects .`,
         `Working with Angular&Vue for web development and Flutter for mobile development.`,

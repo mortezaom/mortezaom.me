@@ -2,7 +2,7 @@
   <div class="footer-section">
     Developed by <a href="https://github.com/mortezaom">MortezaOM</a>, Design based
     on
-    <a href="https://brittanychiang.com">brittanychiang.com</a>
+    <a href="#">brittanychiang.com</a>
   </div>
 </template>
 

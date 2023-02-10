@@ -3,8 +3,7 @@
     <h3 class="s-title"><span>IV. </span> What's Next?</h3>
     <h2>Get In Touch</h2>
     <p>
-      Although I'm currently working on Webfume as application developer and 
-      also working as a freelancer, I might be available for your project or job 
+      I'm currently working as a freelancer, and I will be available for your project or job 
       opportunities. <br>
       Contact me for anything you want, my inbox is always open to you :)
     </p>

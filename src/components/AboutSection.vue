@@ -7,8 +7,7 @@
           Hello, I am Morteza Omar Mohammadi, a 20 years old developer. My main
           skill is in FrontEnd Web development VueJS ( or pure CSS/Javascript )
           and Mobile App development with Flutter.
-          I am interested in new technologies in my field like VueJS, NuxtJS and Flutter.
-          Also, I am interested in UI/UX but not as a creator, just as editor :)
+          I am interested in new technologies in my field like VueJS, NuxtJS and Flutter :)
         </p>
         <p>
           Fast-forward to today, and I've had the experience of working at an
@@ -20,7 +19,7 @@
           and some individual projects.
         </p>
         <p>
-          For now, I am working in Webfume LLC and part of Cynoco Team. Creating and publishing Web applications
+          For now, I am part of Cynoco Team as Web Developer and creating and publishing Web applications
           and Mobile applications for clients or just in-house projects.
         </p>
         <p>Here are some technologies I've been working with:</p>
