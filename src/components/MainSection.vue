@@ -2,7 +2,7 @@
   <section class="section main" id="main">
     <p class="f-p">Hello, my name is</p>
     <h1>Morteza Omar Mohammadi</h1>
-    <h2>Web & Mobile Developer with some experiece :)</h2>
+    <h2>Web & Mobile Developer with some experience :)</h2>
     <p class="s-p">
       I'm a software engineer who creates apps or websites to be part of the
       digital world. Currently, I'm focused on learning new things to improve my
