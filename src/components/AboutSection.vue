@@ -4,7 +4,7 @@
     <div class="about-content">
       <div class="about-text">
         <p>
-          Hello, I am Morteza Omar Mohammadi, a 20 years old developer. My main
+          Hello, I am Morteza Omar Mohammadi, a 21 years old developer. My main
           skill is in FrontEnd Web development VueJS ( or pure CSS/Javascript )
           and Mobile App development with Flutter.
           I am interested in new technologies in my field like VueJS, NuxtJS and Flutter :)
@@ -19,7 +19,7 @@
           and some individual projects.
         </p>
         <p>
-          For now, I am part of Cynoco Team as Web Developer and creating and publishing Web applications
+          For now, I am part of Cynoco Team and also Webfume LLC as Application Developer and creating Web applications
           and Mobile applications for clients or just in-house projects.
         </p>
         <p>Here are some technologies I've been working with:</p>
