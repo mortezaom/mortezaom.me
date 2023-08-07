@@ -1,8 +1,6 @@
 <template>
   <div class="footer-section">
-    Developed by <a href="https://github.com/mortezaom">MortezaOM</a>, Design based
-    on
-    <a href="#">brittanychiang.com</a>
+    Developed by <a href="https://github.com/mortezaom">MortezaOM</a>
   </div>
 </template>
 
