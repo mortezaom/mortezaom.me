@@ -39,7 +39,7 @@ const exps = ref([
       title: "Application Developer",
       corp: "Webfume LLC",
       link: "https://webfume.com/",
-      email: "",
+      email: "m.omar@webfume.com",
       time: "March 2022 - Present",
       texts: [
         `As an application developer, working on in-house/clients projects .`,
