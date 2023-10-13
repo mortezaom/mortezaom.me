@@ -143,11 +143,8 @@ useHead({
 
 <template>
   <Splash :show="show" />
-
   <NavBar />
-
   <RouterView />
-
   <FooterBar />
   <Footer />
   <LeftSide />
