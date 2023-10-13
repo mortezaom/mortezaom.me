@@ -120,6 +120,7 @@ import SectionTitle from "./SectionTitle.vue";
     cursor: pointer;
     transition: all 0.3s ease;
     position: relative;
+    transform: rotateY(10deg);
 
     &:after {
       content: "";
