@@ -25,7 +25,7 @@
         <p>Here are some technologies I've been working with:</p>
         <ul>
           <div class="t-web">
-            <li>JavaScript (+ES6 & TS)</li>
+            <li>JavaScript (+ES6&TS)</li>
             <li>VueJS</li>
             <li>NodeJS</li>
             <li>MongoDB</li>
