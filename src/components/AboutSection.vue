@@ -4,37 +4,37 @@
     <div class="about-content">
       <div class="about-text">
         <p>
-          Hello, I am Morteza Omar Mohammadi, a 21 years old developer. My main
+          Hello, I am Morteza Omar Mohammadi, a 21-year-old developer. My main
           skill is in FrontEnd Web development VueJS ( or pure CSS/Javascript )
           and Mobile App development with Flutter.
-          I am interested in new technologies in my field like VueJS, NuxtJS and Flutter :)
+          I am interested in new technologies like Spring-Boot, NuxtJS, and Flutter :)
         </p>
         <p>
           Fast-forward to today, and I've had the experience of working at an
           ICT solution company as a Web Developer and many of these years spent
-          learning technologies as a self-learner. I have also experience in
+          learning technologies as a self-learner. I also have experience in
           publishing
           <a href="https://codecanyon.net/item/paper-flutter-news-app-with-firebase-backend/28068212">a product on
             Codecanyon market</a>
           and some individual projects.
         </p>
         <p>
-          For now, I am part of Cynoco Team and also Webfume LLC as Application Developer and creating Web applications
+          For now, I am part of Cynoco Team and also Webfume LLC as an Application Developer and creating Web applications
           and Mobile applications for clients or just in-house projects.
         </p>
         <p>Here are some technologies I've been working with:</p>
         <ul>
           <div class="t-web">
-            <li>JavaScript (+ES6)</li>
-            <li>TypeScript</li>
+            <li>JavaScript (+ES6 & TS)</li>
             <li>VueJS</li>
-            <li>Some NodeJS</li>
+            <li>NodeJS</li>
+            <li>MongoDB</li>
           </div>
           <div class="t-android">
-            <li>Flutter</li>
-            <li>Dart</li>
+            <li>Dart/Flutter</li>
+            <li>Java</li>
             <li>Kotlin</li>
-            <li>Android SDK</li>
+            <li>Spring Boot</li>
           </div>
         </ul>
       </div>
