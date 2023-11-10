@@ -29,6 +29,24 @@ const works = ref([
     ],
   },
   {
+    title: "Farsian",
+    description: `A informational app for iranians who live in UK, designed and developed for Cynoco.co.uk with Flutter`,
+    link: "https://apps.apple.com/us/app/farsian/id6469011161",
+    technologies: ["Flutter", "Dart", "Firebase", "Kotlin"],
+  },
+  {
+    title: "TD App",
+    description: `A radio station app that dedicated to promoting Persian artists around the world!, designed and developed for Cynoco.co.uk with Flutter`,
+    link: "https://apps.apple.com/us/app/td-app/id6445922452",
+    technologies: ["Flutter", "Dart", "Just Audio", "Firebase"],
+  },
+  {
+    title: "Dast ba Dast",
+    description: `A kind of social media app to connect afghan peoples around the world!, Work in progress for Webfume LLC with Flutter`,
+    link: "https://webfume.com",
+    technologies: ["Flutter", "Dart", "Firebase", "Hive"],
+  },
+  {
     title: "MDToast - MaterialDesign Toast",
     description:
       "MaterialDesign Toast library written with Kotlin with lots of extensions to interact easily in contexts",
@@ -40,12 +58,6 @@ const works = ref([
     description: `A personal website for myself, designed and developed with VueJS 3, exported with Vite-SSG.`,
     link: "https://github.com/mortezaom/mortezaom.me",
     technologies: ["Vue3", "SCSS", "TypeScript", "Vite-SSG"],
-  },
-  {
-    title: "Maryam Abbasi",
-    description: `A informational app for iranians who live in UK, designed and developed for Cynoco Team with Flutter and and VueJS(Admin Panel)`,
-    link: "https://app.maryamabbasi.com",
-    technologies: ["Flutter", "Dart", "Vue3", "NodeJS"],
   },
   {
     title: "BeatPlayer - Android Music Player",
