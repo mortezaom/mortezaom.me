@@ -15,6 +15,19 @@ import WorkItem from "./WorkItem.vue";
 
 const works = ref([
   {
+    title: "Bilit.Events | Concerts and Events Platform",
+    description:
+      "A platform for buying and selling tickets and seats to concerts and events.",
+    link: "https://bilit.events",
+    technologies: [
+      "JavaScript",
+      "Vue3",
+      "MongoDB",
+      "Redis",
+      "NodeJS",
+    ],
+  },
+  {
     title: "Paper - Flutter News App with Firebase backend",
     description:
       "A cross-platform news app designed and developed with Google Flutter framework and admin panel created with Vue2",
@@ -41,12 +54,6 @@ const works = ref([
     technologies: ["Flutter", "Dart", "Just Audio", "Firebase"],
   },
   {
-    title: "Dast ba Dast",
-    description: `A kind of social media app to connect afghan peoples around the world!, Work in progress for Webfume LLC with Flutter`,
-    link: "https://webfume.com",
-    technologies: ["Flutter", "Dart", "Firebase", "Hive"],
-  },
-  {
     title: "MDToast - MaterialDesign Toast",
     description:
       "MaterialDesign Toast library written with Kotlin with lots of extensions to interact easily in contexts",
@@ -60,14 +67,7 @@ const works = ref([
     technologies: ["Vue3", "SCSS", "TypeScript", "Vite-SSG"],
   },
   {
-    title: "BeatPlayer - Android Music Player",
-    description:
-      "A high functional music player based on open-source libraries and repos created for (Rozhak Team)",
-    link: "https://cafebazaar.ir/app/com.rozhak.player",
-    technologies: ["Android", "Kotlin", "MVVM", "Adivery"],
-  },
-  {
-    title: "Other things",
+    title: "Other Things",
     description: `Many small or large projects that I was part of development team or created by myself`,
     link: "",
     technologies: ["Java", "Kotlin", "Flutter", "..."],
