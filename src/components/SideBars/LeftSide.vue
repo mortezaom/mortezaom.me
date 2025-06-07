@@ -7,10 +7,10 @@
       <a href="https://linkedin.com/in/mortezaom" target="_blank">
         <Linkedin />
       </a>
-      <a href="https://t.me/MortezOM" target="_blank">
+      <a href="https://t.me/MortezaaOM" target="_blank">
         <Telegram />
       </a>
-      <a href="https://twitter.com/omar_morteza" target="_blank">
+      <a href="https://twitter.com/mortezaaom" target="_blank">
         <Twitter />
       </a>
     </ul>

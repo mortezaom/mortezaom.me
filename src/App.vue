@@ -49,7 +49,7 @@ useHead({
     { property: "og:image:width", content: "1200" },
     { property: "og:image:height", content: "630" },
     { property: "og:image:type", content: "image/png" },
-    { property: "twitter:creator", content: "@omar_morteza" },
+    { property: "twitter:creator", content: "@mortezaaom" },
     { property: "twitter:card", content: "summary_large_image" },
     { property: "twitter:title", content: "Morteza Omar Mohammadi" },
     {
