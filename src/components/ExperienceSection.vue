@@ -120,7 +120,7 @@ const exps = ref([
     }
 
     .exp-titles {
-      width: 20%;
+      width: 22%;
       cursor: pointer;
       -ms-overflow-style: auto;
       scrollbar-color: var(--color-transparent) var(--scrollbar-background);
