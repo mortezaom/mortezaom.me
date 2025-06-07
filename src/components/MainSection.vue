@@ -2,14 +2,14 @@
   <section class="section main" id="main">
     <p class="f-p">Hello, my name is</p>
     <h1>Morteza Omar Mohammadi</h1>
-    <h2>Web & Mobile Developer with some experience :)</h2>
+    <h2>Lead Developer & Software Architect</h2>
     <p class="s-p">
-      I'm a software engineer who creates apps or websites to be part of the
-      digital world. Currently, I'm focused on learning new things to improve my
-      knowledge and working as a freelancer to create improved products for
-      people and organizations (or teams).
+      I design and build complex, scalable, and user-centric digital solutions.
+      My focus is on architecting robust systems from the ground up, ensuring
+      they are not only functional but also secure, performant, and built to
+      last.
     </p>
-    <button v-scroll-to="'#contact'">Contact Me</button>
+    <button v-scroll-to="'#contact'">Get In Touch</button>
   </section>
 </template>
 

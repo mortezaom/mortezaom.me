@@ -4,37 +4,38 @@
     <div class="about-content">
       <div class="about-text">
         <p>
-          Hello, I am Morteza Omar Mohammadi, a 21-year-old developer. My main
-          skill is in FrontEnd Web development VueJS ( or pure CSS/Javascript )
-          and Mobile App development with Flutter.
-          I am interested in new technologies like Spring-Boot, NuxtJS, and Flutter :)
+          Hello! I'm Morteza Omar, a Lead Developer and Software Architect
+          passionate about designing and building scalable, high-performance
+          applications. My expertise lies in architecting full-stack systems,
+          from back-end services and database design to intuitive front-end
+          interfaces and cross-platform mobile apps.
         </p>
         <p>
-          Fast-forward to today, and I've had the experience of working at an
-          ICT solution company as a Web Developer and many of these years spent
-          learning technologies as a self-learner. I also have experience in
-          publishing
-          <a href="https://codecanyon.net/item/paper-flutter-news-app-with-firebase-backend/28068212">a product on
-            Codecanyon market</a>
-          and some individual projects.
+          My passion for robust architecture led me to spearhead the development
+          of a high-volume online ticketing platform, guiding the project
+          through its full lifecycle from system design to successful
+          deployment and scaling. This experience solidified my skills in creating
+          resilient, user-centric products that deliver tangible business value.
         </p>
         <p>
-          For now, I am part of Cynoco Team and also Webfume LLC as an Application Developer and creating Web applications
-          and Mobile applications for clients or just in-house projects.
+          Currently, as an Application Developer with Cynoco and Webfume LLC, I
+          continue to apply these principles to build sophisticated web and
+          mobile solutions for a diverse range of clients and in-house
+          projects.
         </p>
-        <p>Here are some technologies I've been working with:</p>
+        <p>Here are a few technologies and concepts I specialize in:</p>
         <ul>
-          <div class="t-web">
-            <li>JavaScript (+ES6&TS)</li>
-            <li>VueJS</li>
-            <li>NodeJS</li>
-            <li>MongoDB</li>
+          <div class="tech-column">
+            <li>System & Microservice Architecture</li>
+            <li>Node.js & TypeScript</li>
+            <li>Database Design (SQL & NoSQL)</li>
+            <li>API Security (OAuth2.0 / REST)</li>
           </div>
-          <div class="t-android">
-            <li>Dart/Flutter</li>
-            <li>Java</li>
-            <li>Kotlin</li>
-            <li>Spring Boot</li>
+          <div class="tech-column">
+            <li>React.js & Vue.js</li>
+            <li>Flutter (Cross-Platform Mobile)</li>
+            <li>Cloud Deployment (AWS/GCP)</li>
+            <li>CI/CD & Containerization (Docker/K8s)</li>
           </div>
         </ul>
       </div>

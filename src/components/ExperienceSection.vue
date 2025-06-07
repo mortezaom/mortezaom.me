@@ -33,6 +33,23 @@ const changeExp = (index: number) => {
 
 const exps = ref([
   {
+    id: 0, // New entry, placed first
+    title: "Bilit Entertainments",
+    desc: {
+      title: "Lead Developer & Architect",
+      corp: "Bilit Entertainments",
+      link: "https://bilit.events/",
+      email: "hi@mortezaom.dev",
+      time: "2024 - Present",
+      texts: [
+        `Architected and led the development of a high-volume ticketing platform, scaling to support thousands of users and process significant transaction volumes.`,
+        `Designed a scalable microservices architecture using Node.js, React, and MongoDB to ensure high availability and performance.`,
+        `Engineered a cross-platform mobile application with Flutter, creating a seamless and unified user experience across all devices.`,
+        `Implemented secure, multi-currency payment gateways and a real-time analytics dashboard for event organizers.`,
+      ],
+    },
+  },
+  {
     id: 1,
     title: "Webfume LLC",
     desc: {
@@ -40,12 +57,12 @@ const exps = ref([
       corp: "Webfume LLC",
       link: "https://webfume.com/",
       email: "m.omar@webfume.com",
-      time: "March 2022 - Present",
+      time: "March 2022 - October 2024",
       texts: [
-        `As an application developer, working on in-house/clients projects .`,
-        `Working with Angular&Vue for web development and Flutter for mobile development.`,
-        `Working with the team to create new products and services for clients and the company.`,
-        `Creating custom libraries and custom modules for mobile and web projects.`,
+        `Engineered full-stack applications for a diverse range of in-house and client projects, focusing on performance and scalability.`,
+        `Developed responsive front-end interfaces using Vue.js and built cross-platform mobile applications with Flutter.`,
+        `Collaborated within an agile team to design, develop, and deploy new software solutions and custom features.`,
+        `Architected and implemented reusable component libraries and custom modules to accelerate development cycles.`,
       ],
     },
   },
@@ -53,32 +70,16 @@ const exps = ref([
     id: 2,
     title: "Cynoco.co.uk",
     desc: {
-      title: "Web/Mobile Developer",
+      title: "Lead Frontend Developer",
       corp: "Cynoco",
       link: "https://cynoco.co.uk/",
       email: "mrtz@cynoco.co.uk",
-      time: "June 2020 - Present",
+      time: "June 2021 - Present",
       texts: [
-        `Working as frontend lead developer for web team.`,
-        `Working and Realeasing apps to AppStore/PlayStore.`,
-        `Creating apps and websites/panels with Flutter/VueJS.`,
-        `Currently working on in-house products and services to release in code markets.`
-      ],
-    },
-  },
-  {
-    id: 3,
-    title: "TechnologyStar",
-    desc: {
-      title: "Web Developer",
-      corp: "Technology Star",
-      link: "",
-      email: "",
-      time: "Feb 2018 - July 2020",
-      texts: [
-        `Part of web applications and websites development team for writing different websites and web apps for customers and clients.`,
-        `Work as a back-end developer for the front-end team.`,
-        `Using and learning web technologies like PHP and Laravel.`,
+        `Led the front-end development team, defining best practices and guiding the implementation of user-centric web applications.`,
+        `Managed the full lifecycle of mobile application deployment to the Apple App Store and Google Play Store.`,
+        `Utilized Flutter and Vue.js to build and maintain high-quality, responsive web and mobile applications.`,
+        `Contributed to the design and development of new in-house products, focusing on market viability and technical robustness.`,
       ],
     },
   },
@@ -86,17 +87,16 @@ const exps = ref([
     id: 4,
     title: "Freelancing",
     desc: {
-      title: "Web & Mobile Developer",
+      title: "Freelance Software Architect & Developer",
       corp: "Freelancer",
-      link: "",
+      link: "https://mortezaom.dev",
       email: "hi@mortezaom.dev",
       time: "Sep 2018 - Present",
       texts: [
-        `Learning and working with the best and updated technologies for mobile and web development.`,
-        `Creating and managing mobile and web projects for different clients around the globe.`,
-        `Working with: Java/Kotlin , Dart/Flutter , Javascript/TypeScript/VueJS/NodeJS.`,
-        `Helping people and solving problems in private groups (Telegram).`,
-        `Design (maybe) and Develop new products to publish in code markets or download markets for clients or me.`,
+        `Provided full-stack development and architectural consulting for a global client base, delivering custom software solutions.`,
+        `Independently managed end-to-end project lifecycles, from initial client consultation and system design to final deployment.`,
+        `Applied a broad range of technologies including Node.js, Vue.js, and Flutter to meet unique project requirements.`,
+        `Acted as a technical mentor and problem-solver within developer communities, contributing to knowledge sharing.`,
       ],
     },
   },
