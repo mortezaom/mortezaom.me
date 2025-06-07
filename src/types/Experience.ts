@@ -1,4 +1,4 @@
-interface Experience {
+export type Experience = {
   title: string;
   corp: string;
   link: string;
@@ -6,5 +6,3 @@ interface Experience {
   email: string;
   texts: string[];
 }
-
-export default Experience

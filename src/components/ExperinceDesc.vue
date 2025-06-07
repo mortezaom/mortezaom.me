@@ -21,7 +21,7 @@
 
 <script setup lang="ts">
 import type { PropType } from "vue";
-import type Experience from "../types/Experience";
+import type { Experience } from "../types/Experience";
 
 const { data } = defineProps({
   data: Object as PropType<Experience>,

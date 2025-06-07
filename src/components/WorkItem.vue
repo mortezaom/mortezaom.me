@@ -23,7 +23,7 @@
 import Project from "./icons/Project.vue";
 import ExternalLink from "./icons/ExternalLink.vue";
 import type { PropType } from "vue";
-import type Work from "@/types/Work";
+import type { Work } from "@/types/Work";
 
 const { work } = defineProps({
   work: Object as PropType<Work>,
