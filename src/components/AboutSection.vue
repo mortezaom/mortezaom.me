@@ -63,7 +63,7 @@ import SectionTitle from "./SectionTitle.vue";
     }
 
     .about-text {
-      max-width: 50%;
+      max-width: 60%;
       font-size: 1.1rem;
       color: var(--color-text-secondary);
       line-height: 1.15;
@@ -93,6 +93,7 @@ import SectionTitle from "./SectionTitle.vue";
         justify-content: space-between;
         line-height: 1.5;
         font-family: var(--font-second), monospace;
+        font-size: .93rem;
 
         div {
           width: 50%;
