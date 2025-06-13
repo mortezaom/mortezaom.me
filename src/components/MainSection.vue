@@ -2,7 +2,7 @@
   <section class="section main" id="main">
     <p class="f-p">Hello, my name is</p>
     <h1>Morteza Omar Mohammadi</h1>
-    <h2>Lead Developer & Software Architect</h2>
+    <h2>Full-Stack Developer & Software Architect</h2>
     <p class="s-p">
       I design and build complex, scalable, and user-centric digital solutions.
       My focus is on architecting robust systems from the ground up, ensuring
