@@ -1,17 +1,22 @@
 import { fileURLToPath, URL } from 'url'
-
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 
-// https://vitejs.dev/config/
+const isCloudflare = !!process.env.CF_PAGES
+
 export default defineConfig({
-  plugins: [vue( { reactivityTransform: true } )],
+  plugins: [vue({ reactivityTransform: true })],
   resolve: {
     alias: {
-      '@': fileURLToPath(new URL('./src', import.meta.url))
-    }
+      '@': fileURLToPath(new URL('./src', import.meta.url)),
+    },
   },
-  build:{
-    outDir: "../mortezaom.me"
-  }  
+  build: {
+    outDir: isCloudflare ? undefined : '../mortezaom.me',
+  },
+  define: isCloudflare
+    ? {
+        'import.meta.env.VITE_ON_CLOUDFLARE': JSON.stringify(true),
+      }
+    : {},
 })
